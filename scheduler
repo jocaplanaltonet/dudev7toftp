@@ -1,0 +1,2 @@
+/system scheduler
+add name=runDudeBackup start-time=02:00:00 interval=1d on-event="/system script run backup-dude"
